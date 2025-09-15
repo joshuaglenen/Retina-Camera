@@ -22,11 +22,6 @@ Fig 1: Camera Modules
 Fig 2: Camera Assembled
 
 
-<img width="1724" height="930" alt="Lamp" src="https://github.com/user-attachments/assets/9af85159-d8d5-409b-8af4-fef0d1e810d1" />
-
-
-Fig 3: LED Lamp MCPCB
-
 ## Components
 
 Key components include a FLIR Blackfly S camera, 20D double-aspheric lens, polarizing filters, diffuser, custom beam-splitter housing, LED PCB, and modular eyecup and adapter assemblies. 
