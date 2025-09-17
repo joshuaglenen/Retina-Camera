@@ -22,6 +22,12 @@ Fig 1: Camera Modules
 Fig 2: Camera Assembled
 
 
+<img width="1724" height="930" alt="FundusCamMotherboard" src="https://github.com/user-attachments/assets/078f4eb0-adfe-4159-a091-463a6eeb0a18" />
+
+
+Fig 3: Motherboard
+
+
 ## Components
 
 Key components include a FLIR Blackfly S camera, 20D double-aspheric lens, polarizing filters, diffuser, custom beam-splitter housing, LED PCB, and modular eyecup and adapter assemblies. 
