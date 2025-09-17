@@ -1,5 +1,7 @@
 # Introduction
 
+[3D Model](https://skfb.ly/pBpOD)
+
 This project explores the design of a low-cost, modular fundus camera for retinal imaging. Using off-the-shelf optics and a machine-vision camera, it demonstrates that high-quality fundus imaging can be achieved at a fraction of the cost of existing commercial systems.
 
 ## Purpose
