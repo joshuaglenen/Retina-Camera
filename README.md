@@ -8,7 +8,13 @@ Allows a physician to observe fundus images including the retina, macula, optic 
 
 ## Design
 
-The design is built around a swapable 20D aspheric lens and a machine-vision camera with a C-mount macro lens, combined with a beam-splitter module for coaxial illumination using NIR and white LEDs. Each stage of the optical path is modeled as a discrete, swappable module in Fusion 360, making it easy to iterate and reconfigure.
+    Optics: Swappable 20D lens, beam splitter, polarizer cartridges, diffuser, NIR/white LED coaxial illumination.
+
+    Electronics: Custom STM32-based motherboard with LED drivers, buck converters, and GPIO interface to a Blackfly S camera. Powered via external 12 V DC supply.
+
+    Enclosure: Fully modeled in Fusion 360 with integrated lamphouse, eyecup, tripod mount, and modular filter holders.
+
+    Modularity: PCB designed in KiCad with separable functions (power, LED drivers, MCU control) for easy modification or replacement.
 
 <img width="1520" height="722" alt="FUNDUS_CAMERA" src="https://github.com/user-attachments/assets/e5c0e74d-55de-46f3-9412-7e8f2a66fe51" />
 
@@ -30,9 +36,29 @@ Fig 3: Motherboard
 
 ## Components
 
-Key components include a FLIR Blackfly S camera, 20D double-aspheric lens, polarizing filters, diffuser, custom beam-splitter housing, LED PCB, and modular eyecup and adapter assemblies. 
+    STM32F446 MCU
+
+    TPS62133 buck regulator
+
+    AL8860 constant-current driver (NIR LEDs)
+
+    LM3644 dual LED flash driver (white LEDs)
+
+    FLIR Blackfly S industrial camera
+
+    20D ophthalmic lens
+
+    Polarizing filters
+
+    Optional colour filter
+
+    LED light diffuser
+
+    Beam splitter
+
+    Modular eyecup
 
 
 ## Results
 
-While the prototype has not been fabricated, CAD modeling and optical layout demonstrate feasibility. Comparable systems retail for $5,000–$10,000+, suggesting strong potential for a cost-reduced alternative. Future work will focus on building a working prototype, validating optical performance, and exploring clinical viability.
+While the prototype has not been fabricated, CAD modeling and optical layout demonstrate feasibility. Comparable systems retail for $5,000–$10,000+, suggesting strong potential for a cost-reduced alternative. Future work would validate illumination levels, thermal performance, and manufacturability.
